@@ -3,7 +3,7 @@ A Simple Web Crawler by Golang
 
 # Crawl a web's HTML Content
 Step 1: Get the HTML Content from the Website/Web page using HTTP Connection (in get-html module)
-```
+```go
 import (
     gh "github.com/chenxiaomin-non/gobs/gethtml"
     "fmt"
@@ -26,7 +26,7 @@ func main() {
 ```
 
 Step 2: Create a HTML Object Wrapper and parse the HTML Content in to searchable and search on it
-```
+```go
 import (
     parser "github.com/chenxiaomin-non/gobs/parsehtml"
     kmp "github.com/chenxiaomin-non/gobs/kmp"
